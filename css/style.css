@@ -246,7 +246,7 @@ footer .fab{
 footer .fab:hover{
     color: #F2E4E8;
 }
-@media screen and (max-width:467px){
+@media screen and (min-width:320px){
     header{
         display: flex;
         flex-direction: column;
