@@ -246,6 +246,26 @@ footer .fab{
 footer .fab:hover{
     color: #F2E4E8;
 }
+@media screen and (max-width:467px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .container .covid{
+        display: flex;
+        flex-direction: column;
+    }
+    main .container table{
+        font-size: 2em;
+    }
+    main .container .ongles{
+        font-size: 1.5em;
+    }
+    main .container .ongles2{
+        font-size: 1.7em;
+    }
+}
 
 @media screen and (min-width: 320px) and (max-width:768px){
     header{
